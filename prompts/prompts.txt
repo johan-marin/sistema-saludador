@@ -1,0 +1,13 @@
+Secuencia de prompts utilizados en la IA (Cursor) para construir el proyecto:
+
+1. "Hola. Tengo que hacer un trabajo de la universidad. Necesito crear un proyecto en Java con JavaFX para una aplicación de escritorio sencilla. Para que no sea tan difícil compilar luego, armemos el proyecto con Maven. Dame la estructura básica de carpetas y el pom.xml usando Java 17."
+
+2. "Listo, ya tengo el pom.xml. Ahora necesito que me generes la clase Main. El requerimiento del tablero dice: El sistema debe pedir el nombre del estudiante, su edad y la hora (en formato AM/PM con un desplegable). También debe tener un botón que diga 'Solicitar saludo'."
+
+3. "El botón todavía no hace nada. Agrégale la lógica: cuando el usuario le dé clic, si en la hora seleccionó AM, que imprima en un texto abajo 'Buenos días [nombre], veo que tienes [edad] años'. Si seleccionó PM, que diga 'Buenas tardes/noches...'. Valida también que no dejen campos vacíos."
+
+4. "La ventana de la aplicación se ve un poco apretada, los botones y campos de texto están muy pegados a los bordes. ¿Puedes agregarle algo de padding al contenedor y hacer que el título 'Sistema Saludador' sea un poco más grande para que se vea más organizado?"
+
+5. "Me está saliendo un warning raro sobre los módulos de JavaFX al darle 'mvn javafx:run' en la consola, ¿cómo puedo configurar el pom.xml para que corra directo sin que me pida crear el archivo module-info.java?"
+
+6. "Perfecto, ya compila y abre la ventana bien. Hazme un archivo README muy corto explicando cómo ejecutar el código con los comandos de Maven para subirlo a GitHub."
